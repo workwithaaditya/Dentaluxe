@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Teeth Whitening",
+        "description": "A cosmetic dental procedure that lightens the color of teeth and helps to remove stains and discoloration.",
+        "image": "images/treatments/teeth_whitening.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Root Canal Treatment",
+        "description": "A dental procedure used to treat infection at the center of a tooth. It involves removing the infected pulp and sealing the tooth.",
+        "image": "images/treatments/root_canal.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dental Implants",
+        "description": "A surgical procedure that involves placing a metal post in the jawbone to serve as a replacement root for a missing tooth.",
+        "image": "images/treatments/dental_implants.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Orthodontics",
+        "description": "A branch of dentistry that deals with the diagnosis, prevention, and correction of misaligned teeth and jaws.",
+        "image": "images/treatments/orthodontics.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Cosmetic Dentistry",
+        "description": "Dental work that improves the appearance of teeth, gums, and smile, including procedures like veneers and bonding.",
+        "image": "images/treatments/cosmetic_dentistry.jpg"
+    }
+]

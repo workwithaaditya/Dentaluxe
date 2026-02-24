@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. John Smith",
+        "specialty": "Dentist",
+        "image": "images/doctors/dr-john-smith.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Emily Johnson",
+        "specialty": "Pediatrician",
+        "image": "images/doctors/dr-emily-johnson.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Michael Brown",
+        "specialty": "Orthopedic Surgeon",
+        "image": "images/doctors/dr-michael-brown.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dr. Sarah Davis",
+        "specialty": "Cardiologist",
+        "image": "images/doctors/dr-sarah-davis.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dr. David Wilson",
+        "specialty": "Dermatologist",
+        "image": "images/doctors/dr-david-wilson.jpg"
+    }
+]

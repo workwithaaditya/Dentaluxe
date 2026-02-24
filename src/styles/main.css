@@ -1,0 +1,95 @@
+body {
+    font-family: 'CustomFont', sans-serif;
+    background-color: #f5f5dc; /* Beige background */
+    color: #4b3d2e; /* Brown text */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4b3d2e; /* Brown headings */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color: #d9c9b2; /* Lighter beige for header and footer */
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #4b3d2e; /* Brown button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #3a2c23; /* Darker brown on hover */
+}
+
+.review-card {
+    background-color: #ffffff; /* White background for reviews */
+    border: 1px solid #d9c9b2; /* Light border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.map-container {
+    width: 100%;
+    height: 400px; /* Fixed height for Google Maps */
+    margin: 20px 0;
+}
+
+.hero {
+    background-color: #d9c9b2; /* Hero section background */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero img {
+    border-radius: 50%; /* Circular images for doctors */
+    width: 150px;
+    height: 150px;
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 1s ease-in-out;
+}
+
+.patient-photo {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-info a {
+    text-decoration: none;
+}

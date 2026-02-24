@@ -1,0 +1,42 @@
+body {
+    background-color: #f5f5dc; /* Beige background */
+    color: #4b3d3d; /* Brown text color */
+    font-family: 'Custom Font', sans-serif; /* Custom font */
+}
+
+.reviews-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    border-bottom: 1px solid #dcdcdc;
+    padding: 15px 0;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review-author {
+    font-weight: bold;
+    color: #4b3d3d; /* Brown color for author */
+}
+
+.review-text {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.review-rating {
+    color: #ffcc00; /* Gold color for rating stars */
+}
+
+.review-date {
+    font-size: 0.9em;
+    color: #888; /* Gray color for date */
+}

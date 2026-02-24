@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/slideshow.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Clinic Gallery</title>
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="slideshow">
+            <div class="slides fade">
+                <img src="../images/photo1.jpg" alt="Clinic Photo 1">
+            </div>
+            <div class="slides fade">
+                <img src="../images/photo2.jpg" alt="Clinic Photo 2">
+            </div>
+            <div class="slides fade">
+                <img src="../images/photo3.jpg" alt="Clinic Photo 3">
+            </div>
+            <div class="slides fade">
+                <img src="../images/photo4.jpg" alt="Clinic Photo 4">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+    <script src="../scripts/slideshow.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<div class="hero" style="background-image: url('path/to/slideshow/image1.jpg');">
+    <div class="hero-content">
+        <h1>Welcome to Our Clinic</h1>
+        <p>Your health is our priority. Meet our dedicated team of doctors.</p>
+        <div class="doctor-card">
+            <img src="path/to/doctor/image.jpg" alt="Doctor Name" class="doctor-image">
+            <h2>Dr. John Doe</h2>
+            <p>Specialty: Cardiology</p>
+            <a href="#doctors" class="btn">Meet Our Team</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Initialize slideshow functionality
+    const images = ['path/to/slideshow/image1.jpg', 'path/to/slideshow/image2.jpg', 'path/to/slideshow/image3.jpg'];
+    let currentIndex = 0;
+
+    function changeBackground() {
+        const hero = document.querySelector('.hero');
+        currentIndex = (currentIndex + 1) % images.length;
+        hero.style.backgroundImage = `url('${images[currentIndex]}')`;
+    }
+
+    setInterval(changeBackground, 5000); // Change background every 5 seconds
+</script>

@@ -1,0 +1,32 @@
+[
+    {
+        "patientName": "John Doe",
+        "review": "The staff at the clinic were incredibly friendly and professional. I felt well taken care of during my visit.",
+        "rating": 5,
+        "date": "2023-09-15"
+    },
+    {
+        "patientName": "Jane Smith",
+        "review": "I had a great experience! The doctor was very knowledgeable and answered all my questions.",
+        "rating": 4,
+        "date": "2023-08-22"
+    },
+    {
+        "patientName": "Emily Johnson",
+        "review": "The clinic is clean and well-organized. I appreciated the timely service and the care I received.",
+        "rating": 5,
+        "date": "2023-07-30"
+    },
+    {
+        "patientName": "Michael Brown",
+        "review": "I was impressed with the level of care and attention I received. Highly recommend this clinic!",
+        "rating": 5,
+        "date": "2023-06-10"
+    },
+    {
+        "patientName": "Sarah Davis",
+        "review": "The waiting time was a bit long, but the quality of care made it worth it. Thank you!",
+        "rating": 4,
+        "date": "2023-05-05"
+    }
+]

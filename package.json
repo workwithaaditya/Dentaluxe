@@ -1,0 +1,25 @@
+{
+  "name": "clinic-website",
+  "version": "1.0.0",
+  "description": "A professional website for a clinic featuring a slideshow, doctor profiles, Google Maps integration, and patient reviews.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "google-maps-react": "^2.0.6"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "keywords": [
+    "clinic",
+    "website",
+    "healthcare",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
